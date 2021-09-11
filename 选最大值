@@ -1,0 +1,132 @@
+#include <stdio.h>
+#include <stdlib.h>
+int main()
+{
+	/*float month,d,p,r;
+    int ways;
+    r=0.01;
+    printf("请输入该银行的利息率%.2f\n",r);
+    printf("请输入你要贷款的金额");
+    scanf("%f",&d);
+    printf("请输入你月还的金额");
+    scanf("%f",&p);
+    if(p-d*r>0)
+    {    
+       month=(log(p)-log(p-d*r))/log(1+r);
+       if(month>1200)
+     {
+		printf("很遗憾你不配贷款，再去努力赚钱吧\n");
+     }
+     else
+     {
+     printf("你还要还%.2f年\n",month/12);
+     }
+   }
+    else
+    {
+		printf("你输入错误，请重新开始\n");
+    }
+    printf("你想发财吗\n");
+    printf("我有下列5个“不劳而获”的方法,请选择一个\n");
+    scanf("%d",&ways);
+    switch(ways)
+    {
+		case 1 : printf("你的想法很危险，请重新学习思想政治\n");break;
+        case 2 : printf("你的想法很危险，请重新学习思想政治\n");break;
+        case 3 : printf("你的想法很危险，请重新学习思想政治\n");break;
+        case 4 : printf("你的想法很危险，请重新学习思想政治\n");break;
+        defult: printf("你的想法很危险，请重新学习思想政治\n");
+    }
+    printf("现在我要认真了，不骗你了\n");
+	printf("给你算一笔钱，如果你第一天存1块钱，第二天存2块，依次递增，一年以后你知道你能赚多少钱吗？\n");*/
+   /* int i,money;
+    i=1;money=0;
+    while(i<366)
+    {
+		money=money+i;
+        i++;
+    }
+    printf("一年能存多少%d元\n",money);
+    printf("是不是一笔不错的存款，你要知道积少成多，这样人生才能越活越富有\n");
+    printf("最近基金很火，我们有一种方法\n");*/
+    /*float bj=1000,q,increase=0.05,all=1;
+	for(q=0;q<10;q++)
+    {
+		all=bj*(1+increase)*q;
+    }
+    printf("金额为%.2f\n",all);*/
+    /*int x,y;
+    scanf("%d",&x);
+    if(x<1)
+	y=x;
+    else if(x>=1&&x<10)
+    y=2*x-1;
+    else
+    y=3*x-11;
+    printf("y的值为%d\n",y);*/
+    /*char grade;
+	scanf("%d",&grade);
+    switch(grade)
+    {
+		case 1:printf("分数为85~95\n");break;
+        case 2:printf("分数为75~85\n");break;
+        case 3:printf("分数为65~75\n");break;
+        case 4:printf("分数为60~65\n");break;
+        case 5:printf("不及格\n");break;
+        defult :printf("输入错误，请从新输入\n");break;
+    }*/
+    /*int year;
+    printf("请输入一个年份\n");
+    scanf("%d",&year);
+    if(year%4==0&&year%100!=0||(year%400==0))
+    {
+		printf("该年份为闰年\n");
+    }
+    else
+    printf("该年份非闰年\n");
+    float f,p,w,s,d;
+    int c;
+    w=100;
+    printf("请输入你的路程,运费,\n");
+    scanf("%f %f",&s,&p);
+    if(s>=3000)
+		d=12;
+    else
+    {
+		c=s/250;
+    }
+    switch(c)
+    {
+		case 0:d=0;break;
+        case 1:d=2;break;
+        case 2:
+        case 3:d=5;break;
+        case 4:
+        case 5:d=8;break;
+        case 6:
+        case 7:
+        case 8:
+        case 9:d=10;break;
+        case 10:
+        case 11:
+        case 12:d=15;break;
+        defult :printf("输入错误，请重新输入\n");break;  
+    }
+    f=p*w*s*(1-d);
+    printf("你的运费为%.2f",f);*/
+    int i,s,d;
+    printf("请输入1—4的数字\n");
+    scanf("%d",&i);
+    switch(i)
+    {
+		case 1:d=1;break;
+        case 2:d=2;break;
+        case 3:d=3;break;
+        case 4:d=5;break;
+        defult :printf("输入错误\n");break;
+    }
+    s=d*3;
+    printf("%d\n",s);
+	system("pause");
+	return 0; 
+}
